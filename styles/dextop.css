@@ -79,6 +79,13 @@
 /* First section end */
 
 /* Popular Collection section start  */
+.section-title{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
 .second-section{
     max-width: 1400px;
     margin: 0 auto;
@@ -111,6 +118,22 @@
 }
 .gray-color{
     color: #787885;
+}
+.see-more-button {
+    margin-top: 50px;
+    float: right;
+    max-width: 1400px;
+    margin-right: 116px;
+}
+.see-more-button a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.see-more-button a,
+.fa-arrow-right{
+    color: #E02C6D;
+    text-decoration: none;
 }
 
 /* Popular Collection section end  */
