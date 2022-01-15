@@ -63,7 +63,8 @@
     padding-right: 30px;
 }
 .first-container h1{
-    font-size: 50px;
+    font-size: 40px;
+    white-space: nowrap;
     font-weight: 700;
     line-height: 70px;
     text-align: left;  
@@ -187,3 +188,83 @@ footer i{
     height: 32px;
 }
 /* Footer section end */
+
+/* Animation section start */
+.first-container .influncer-heading{
+    font-size: 40px;
+    white-space: nowrap;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;  
+    position: relative;
+    color: transparent;
+}
+.first-container .influncer-heading::before{
+   content: "Influencer";
+   position: absolute;
+   top: 0;
+   left: 0;
+   color: #E02C6D;
+   animation: typing 3s linear infinite;
+}
+@keyframes typing {
+    0%{
+        content: "I|";
+    }
+    5%{
+        content: "In|";
+    }
+    10%{
+        content: "Inf|";
+    }
+    15%{
+        content: "Infl|";
+    }
+    20%{
+        content: "Influ|";
+    }
+    25%{
+        content: "Influe|";
+    }
+    30%{
+        content: "Influen|";
+    }
+    35%{
+        content: "Influenc|";
+    }
+    40%{
+        content: "Influence|";
+    }
+    65%{
+        content: "Influencer|";
+    }
+    70%{
+        content: "Influence|";
+    }
+    75%{
+        content: "Influenc|";
+    }
+    80%{
+        content: "Influen|";
+    }
+    85%{
+        content: "Influe|";
+    }
+    90%{
+        content: "Influ|";
+    }
+    95%{
+       content: "Infl|"; 
+    }
+    100%{
+        content: "Inf|";
+    }
+    105%{
+        content: "In|";
+    }
+    110%{
+        content: "I";
+    }
+
+}
+/* Animation section end */
