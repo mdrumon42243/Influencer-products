@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 ;
     box-sizing: border-box;
     color: black;
     font-family: 'Poppins', sans-serif;
@@ -27,7 +27,8 @@
 .navigation .nav-logo p{
    width: fit-content; 
    margin: 0 auto;
-   font-size: 20px;
+   font-size: 18px;
+   font-weight: 700;
 }
 .navigation .nav-section{
    display: none;
@@ -45,11 +46,13 @@
     width: fit-content;
     margin: 0 auto;
     margin-top: 20px;
+    font-size: 18px;
 }
 .first-container p{
     text-align: center;
     width: fit-content;
     margin-top: 20px;
+    font-style: 15px;
 }
 .second-container{
     max-width: 576px;
@@ -60,3 +63,60 @@
     width: 250px;
 }
 /* First section end */
+
+/* Popular Collection section start  */
+.section-title{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.second-section{
+    max-width: 576px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.populer-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.populer-container .populer-item{
+    height: 476px;
+    width: 329px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.populer-item .item-image img{
+    height: 256px;
+    width: 300px;
+    border-radius: 5px;
+}
+.fa-star,
+.fa-star-half-alt{
+    color: #FB8200;
+    height: 16px;
+    width: 16px;
+}
+.gray-color{
+    color: #787885;
+}
+.see-more-button {
+    margin-top: 50px;
+}
+.see-more-button a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.see-more-button a,
+.fa-arrow-right{
+    color: #E02C6D;
+    text-decoration: none;
+}
+
+/* Popular Collection section end  */

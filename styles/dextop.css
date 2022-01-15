@@ -121,9 +121,6 @@
 }
 .see-more-button {
     margin-top: 50px;
-    float: right;
-    max-width: 1400px;
-    margin-right: 116px;
 }
 .see-more-button a{
     font-size: 16px;
@@ -138,3 +135,30 @@
 
 /* Popular Collection section end  */
 
+/* Third section start */
+.third-section{
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-radius: 20px;
+}
+.third-cont-info{
+    width: 100%;
+}
+.third-cont-info h2{
+    margin-bottom: 10px;
+}
+.third-cont-image img{
+    width: 90%;
+    border-radius: 20px;
+}
+.third-cont-image {
+    width: 100%;
+}
+/* Third section end */
