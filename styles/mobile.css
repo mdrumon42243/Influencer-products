@@ -1,3 +1,20 @@
-body{
-    background-color: gray;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Poppins', sans-serif;
 }
+/* navigation section start */
+.navigation{
+    margin-top: 20px;
+}
+.navigation .nav-logo p{
+   width: fit-content; 
+   margin: 0 auto;
+   font-size: 20px;
+}
+.navigation .nav-section{
+   display: none;
+}
+/* navigation section end */
