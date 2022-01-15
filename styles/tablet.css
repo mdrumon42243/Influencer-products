@@ -60,6 +60,7 @@
     text-align: center;
     width: fit-content;
     margin-top: 20px;
+    padding: 20px;
 }
 .second-container{
     max-width: 786px;
@@ -68,6 +69,7 @@
 .second-container img{
     height: 375px;
     width: 433px;
+    margin-top: 30px;
 }
 /* First section end */
 
@@ -120,11 +122,13 @@
 }
 .see-more-button {
     margin-top: 50px;
+    
 }
 .see-more-button a{
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+
 }
 .see-more-button a,
 .fa-arrow-right{
